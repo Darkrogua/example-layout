@@ -1,0 +1,43 @@
+{
+  "name": "Html start layout",
+  "version": "1.0.0",
+  "description": "Professional Htm1",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development npx mix",
+    "prod": "cross-env NODE=production npx mix --production",
+    "watch": "cross-env NODE_ENV=development npx mix watch",
+    "building": "echo \"Error: no test specified\" && exit 1",
+    "oct": "node october.js"
+  },
+  "author": "Artem Dmitrenko",
+  "license": "MIT",
+  "devDependencies": {
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.7.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "jquery": "^3.6.0",
+    "jquery-ui": "^1.13.1",
+    "laravel-mix": "^6.0.39",
+    "laravel-mix-purgecss": "^6.0.0",
+    "laravel-mix-versionhash": "^2.0.1",
+    "popper.js": "^1.16.1",
+    "postcss": "^8.4.5",
+    "postcss-loader": "^6.2.1",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.47.0",
+    "sass-loader": "^12.4.0",
+    "vue": "^2.6.14",
+    "vue-loader": "^15.9.8",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "dependencies": {
+    "@fancyapps/ui": "^4.0.23",
+    "axios": "^0.25.0",
+    "cross-env": "^7.0.3",
+    "htmlbilder": "^2.0.2",
+    "opensans-npm-webfont": "^1.0.0",
+    "swiper": "^8.0.3",
+    "vue2-datepicker": "^3.10.4"
+  }
+}

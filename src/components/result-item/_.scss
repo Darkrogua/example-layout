@@ -1,0 +1,85 @@
+.result-item {
+    position: relative;
+    box-shadow: 0px 2px 5px #0000001a;
+    @include m('xxl') {
+        height: auto;
+    }
+}
+
+.result-item__img {
+    object-fit: cover;
+    width: 100%;
+    border-top-left-radius: 0.25rem !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-left-radius: 0.25rem !important;
+    @include m('md') {
+        height: 300px;
+        border-top-left-radius: 0.25rem !important;
+        border-top-right-radius: 0.25rem !important;
+        border-bottom-left-radius: 0 !important;
+    }
+}
+
+.result-item__booking:hover {
+    background-color: color('red-400');
+    color: color('primary-100')
+}
+
+.result-item__tag {
+    &:hover {
+        cursor: pointer;
+        background-color: color('gold-300');
+    }
+
+    @include m('md') {
+        position: absolute;
+        bottom: 15px;
+        left: 15px;
+    }
+    @include m('400px') {
+        font-size: fs('ss');
+    }
+}
+
+.result-item__icon-ship {
+    width: 39px;
+    @include m('xxl') {
+        width: 34px;
+    }
+    @include m('md') {
+        width: auto;
+    }
+    @include m('400px') {
+        width: 25px;
+    }
+}
+
+.result-item__line-name {
+    @include m('md') {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(color('primary-100'), .6);
+        color: color('blue-400');
+    }
+
+    & span {
+        @include m('400px') {
+            font-size: 14px !important;
+        }
+    }
+
+    & > div {
+        @include m(400px) {
+            padding: 8px !important;
+        }
+    }
+}
+
+
+.result-item__center {
+    @include m('400px') {
+        padding: 5px !important
+    }
+}

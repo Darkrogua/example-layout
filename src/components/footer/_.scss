@@ -1,0 +1,101 @@
+footer {
+  height: 500px;
+}
+
+.footer__top {
+  position: relative;
+}
+
+.footer__reestor {
+  width: 360px;
+  @include m('sm') {
+    width: 310px;
+  }
+  @include m('357px') {
+    width: 100%;
+  }
+}
+
+
+footer .footer__recall-btn {
+  border: 2px solid color('primary-100');
+  @include m('370px') {
+    width: 100%;
+  }
+}
+
+
+.footer__recall-text {
+  @include m('370px') {
+    flex-direction: row!important;
+  }
+  & span:first-child {
+    @include m('370px') {
+      margin-right: 8px;
+    }
+  }
+}
+
+.footer__recall-text {
+  opacity: .8;
+}
+
+.footer__phone-link:hover {
+  color: color('primary-100') 
+}
+
+.footer__recall-btn:hover {
+  color: color('blue-100')!important;
+  background-color: color('primary-100');
+}
+
+
+.footer__phones-left .footer__phone {
+  @include m('xl') {
+    width: 200px;
+  }
+}
+
+.footer__phones {
+  justify-content: center;
+  @include m('xl') {
+    justify-content: start;
+    align-items: start!important;
+  }
+}
+
+.footer__phones-right {
+  @include m('xl') {
+    align-items: start!important;
+  }
+}
+
+
+.footer__right {
+ 
+  @include m('xl') {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60vw;
+    height: 100%;
+  }
+ @include m('1200px') {
+    width: 50vw;
+  }
+  @include m('lg') {
+    position: relative;
+    right: auto;
+    top: auto;
+    width: 100%;
+  }
+
+
+}
+
+.footer__right #map {
+ @include m('lg') {
+    height: 400px!important;
+    width: 100%;
+  }
+}
