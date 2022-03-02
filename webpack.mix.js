@@ -14,12 +14,10 @@ mix.setResourceRoot('../')
 
 
 const cssFileList = [
-    'layouts/master/master',
     'pages/index/index',
 ];
 
 const jsFileList = [
-    'layouts/master/master',
     'pages/index/index',
 ];
 

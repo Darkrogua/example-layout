@@ -1,5 +1,5 @@
 {
-  "name": "html start layout",
+  "name": "Html base layout",
   "version": "1.0.0",
   "description": "Professional Htm1",
   "main": "index.js",
@@ -35,7 +35,6 @@
     "@fancyapps/ui": "^4.0.23",
     "axios": "^0.25.0",
     "cross-env": "^7.0.3",
-    "htmlbilder": "^2.0.2",
     "opensans-npm-webfont": "^1.0.0",
     "swiper": "^8.0.3",
     "vue2-datepicker": "^3.10.4"

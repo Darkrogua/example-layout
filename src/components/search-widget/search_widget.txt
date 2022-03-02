@@ -1,5 +1,0 @@
-# Теплоход фиксируется с помощью meta-тега
-this.fixed_ship = parseInt($('meta[name="fixed_ship"]').attr('content'));
-
-# Номер заезда фиксируется checkin-id
-<checkin-id id="{{ checkin_id }}"></checkin-id>
