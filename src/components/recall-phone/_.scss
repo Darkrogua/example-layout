@@ -1,0 +1,21 @@
+.recall-phone {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 19px;
+		// .recall-phone__link
+		&__link {
+         text-decoration: none;
+         margin-left: 10px;
+         font-family: font('lato');
+         font-style: normal;
+         font-weight: normal;
+         font-size: fs('def');
+         line-height: lh(16, 19);
+         color: color('primary-200');
+		}
+}
+.recall-button {
+   text-align: right;
+}

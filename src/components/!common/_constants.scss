@@ -38,7 +38,7 @@ $grid-breakpoints: (
 
 
 // Переменные цветов
-// c-blue-100 bg-blue-100
+// class c-blue-100 bg-blue-100
 $defColors: (
 	'blue-100': rgba(54, 149, 231, 1),
 	'blue-200': rgba(30, 136, 229, 1),
@@ -80,11 +80,13 @@ $colors: ();
 // class ff-def  ff-roboto
 $fonts: (
 	def				: ('Open sans', sans-serif),
-	roboto				: ('Roboto', sans-serif)
+	ubuntu 			: ('Ubuntu sans', sans-serif),
+	roboto			: ('Roboto', sans-serif)
 );
 
 // class fs-def fs-h1 fs-h2 и т.д 
 // указываем в пикселях
+
 $font-sizes: (
 	ss: rem(12),
 	s: rem(14),
@@ -97,6 +99,8 @@ $font-sizes: (
 );
 
 $z-layers: (
-	btn-slider	: 1,
+	btn-slider: 1,
+	header: 100,
+	modal: 1000
 );
 

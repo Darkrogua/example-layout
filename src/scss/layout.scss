@@ -1,0 +1,7 @@
+
+.container {
+    max-width: map-get($containers,'container-custom');
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}

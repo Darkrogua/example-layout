@@ -1,15 +1,24 @@
 // general variables (подключаем на любой странице)
-@import "@src/components/!common/_.scss";
+@import "@src/components/!common/_";
 
 // libs
 @import '~bootstrap/dist/css/bootstrap.css';
-@import "@src/scss/fonts.scss";
+
+@import "@src/scss/fonts";
+@import '@src/scss/layout.scss';
+
 
 // components
 @import "@src/components/header/_";
-
+@import '@src/components/footer/_';
 
 
 
 
 // pages style (то что нельзя описать в компонентах)
+
+.main {
+   min-height: 600px;
+   color: color('primary-100');
+   background-color: color('blue-100');
+}

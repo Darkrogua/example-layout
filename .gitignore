@@ -3,5 +3,6 @@
 *.zip
 .idea/
 node_modules
+assets
 !index.htm
 .env

@@ -1,0 +1,57 @@
+.button {
+    @include default-button();
+
+    &--outline {
+        padding: 10px 24px 13px;
+        border: 1px solid color('primary-200');
+        box-sizing: border-box;
+        border-radius: 2px;
+        font-family: font('lato');
+        font-style: normal;
+        font-weight: normal;
+        font-size: fs('def');
+        line-height: lh(16,19);
+        color: color('primary-200');
+        background-color: transparent;
+    }
+    
+    &--outline-white {
+        padding: 10px 24px 13px;
+        border: 1px solid color('primary-100');
+        box-sizing: border-box;
+        border-radius: 2px;
+        font-family: font('lato');
+        font-style: normal;
+        font-weight: normal;
+        font-size: fs('def');
+        line-height: lh(16,19);
+        color: color('primary-100');
+        background-color: transparent;
+    }
+    
+    
+    &--filled {
+        padding: 10px 24px 13px;
+        background: color('blue-300');
+        border-radius: 2px;
+        font-size: fs('btn');
+        font-family: font('lato');
+        font-style: normal;
+        font-weight: normal;
+        line-height: lh(18,22);
+        color: color('primary-100')
+    }
+    
+    &--filled-white {
+    padding: 10px 24px 13px;
+    background: color('primary-100');
+    border-radius: 2px;
+    font-size: fs('btn');
+    font-family: font('lato');
+    font-style: normal;
+    font-weight: normal;
+    line-height: lh(18,22);
+    color: color('blue-300')
+    }
+}
+
